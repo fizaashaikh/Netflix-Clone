@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="netflix_PNG10.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
 </head>
 
 <body>
     <div class="body">
         <nav class="navbar">
-            <img class="logo" src="logo.png" alt="Netflix Logo">
+            <img class="logo" src="logo.png" alt="Netflix Logo" />
             <div class="signinandlanguage">
-                <div class="languagesection"> 
+                <div class="languagesection">
                     <select name="languagesection" id="lang-enghindi">
                         <option value="English">English</option>
                         <option value="Hindi">हिंदी</option>
@@ -27,12 +28,18 @@
         <!-- Section 1 -->
         <div class="section-1">
             <div class="main-container">
-                <h1 class="first-heading">Unlimited movies, TV <br/> shows and more.</h1>
+                <h1 class="first-heading">
+                    Unlimited movies, TV <br />
+                    shows and more.
+                </h1>
                 <h2 class="second-heading">Watch anywhere. Cancel anytime.</h2>
-                <p class="third-heading">Ready to watch? Enter your email to create or restart your membership.</p>
+                <p class="third-heading">
+                    Ready to watch? Enter your email to create or restart your
+                    membership.
+                </p>
             </div>
             <div class="email-container">
-                <input class="input-email" type="email" name="" id="" placeholder="Email address">
+                <input class="input-email" type="email" name="" id="" placeholder="Email address" />
                 <div class="btn-getstarted">Get Started ></div>
             </div>
         </div>
@@ -40,18 +47,81 @@
 
     <!-- Section 2 -->
     <div class="section-2">
+
+        <!-- Slide 1 -->
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2">
+                <div class="blackcontainer-text" style="padding-left: 120px;">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>
+                        Watch on smart TVs, PlayStation, Xbox, <br />
+                        Chromecast, Apple TV, Blu-ray players and more.
+                    </p>
+                </div>
+                <div class="blackcontainer-media" style="padding-right: 80px;">
+                    <div class="livetv-animation">
+                        <img src="tv.png" alt="tv" />
+                        <video src="slide 1.m4v" type="video/mp4" loop autoplay></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2">
+                <div class="blackcontainer-media">
+                    <div class="merge">
+                        <div class="mainimage">
+                            <img src="mobile-0819.jpg" alt="stranger things" style="
+                  height: 90%;
+                  width: 75%;
+                  padding-top: 30px;
+                  padding-left: 5px;
+                  padding-right: 30px;
+                " />
+                        </div>
+                        <!-- Add Image Text and Gif -->
+                        <div class="gif">
+                            <div class="addimage">
+                                <img src="boxshot.png" alt="stranger things cover"
+                                    style="width: 60px; height: 82px; padding-top: 7px; padding-bottom: 7px; padding-left: 10px; padding-right: 15px" />
+                            </div>
+                            <div class="addtext">
+                                <p style="font-weight: 600;">Stranger Things <br /></p>
+                                <p style="color: #0071eb; font-size: 14px; padding-right: 70px">
+                                    Downloading...
+                                </p>
+                            </div>
+                            <div class="addgif">
+                                <img src="download-icon.gif" alt="download gif" style="height: 45px; padding-left: 15px;" />
+                            </div>
+                        </div>
+                        <!-- Add Image Text and Gif -->
+                    </div>
+                </div>
+                <div class="blackcontainer-text" style="padding-left: 20px; padding-bottom: 10px">
+                    <h1>
+                        Download your shows <br />
+                        to watch offline.
+                    </h1>
+                    <p>
+                        Save your favourites easily and always have <br />
+                        something to watch.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
         <div class="container-2">
             <div class="greytopborder"></div>
             <div class="subblackcontainer-2"></div>
         </div>
-        <div class="container-2">
-            <div class="greytopborder"></div>
-            <div class="subblackcontainer-2"></div>
-        </div>
-        <div class="container-2">
-            <div class="greytopborder"></div>
-            <div class="subblackcontainer-2"></div>
-        </div>
+        
+        <!-- Slide 4 -->
         <div class="container-2">
             <div class="greytopborder"></div>
             <div class="subblackcontainer-2"></div>
@@ -66,116 +136,134 @@
         <div class="greybox">
             <div class="greyboxin">
                 <h1>What is Netflix?</h1>
-                <button onclick="showorhide1()" id="plus_btn_1" class="plus_btn">+</button>
+                <button onclick="showorhide1()" id="plus_btn_1" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_1">
-                <hr/>
-                <p>Netflix is a streaming service that offers a wide variety of <br/> 
-                award-winning TV shows, movies, anime, documentaries and <br/>
-                more – on thousands of internet-connected devices. <br/><br/>
-                
-                You can watch as much as you want,whenever you want, <br/>
-                without a single ad – all for one low monthly price. There's <br/>
-                always something new to discover, and new TV shows and <br/>
-                movies are added every week!</p>
+                <hr />
+                <p>
+                    Netflix is a streaming service that offers a wide variety of <br />
+                    award-winning TV shows, movies, anime, documentaries and <br />
+                    more – on thousands of internet-connected devices. <br /><br />
+
+                    You can watch as much as you want,whenever you want, <br />
+                    without a single ad – all for one low monthly price. There's <br />
+                    always something new to discover, and new TV shows and <br />
+                    movies are added every week!
+                </p>
             </div>
         </div>
 
         <div class="greybox">
             <div class="greyboxin">
                 <h1>How much does Netflix cost?</h1>
-                <button onclick="showorhide2()" id="plus_btn_2" class="plus_btn">+</button>
+                <button onclick="showorhide2()" id="plus_btn_2" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_2">
                 <hr />
-                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br/>
-                streaming device, all for one fixed monthly fee. Plans range <br/>
-                from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.</p>
+                <p>
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                    <br />
+                    streaming device, all for one fixed monthly fee. Plans range <br />
+                    from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.
+                </p>
             </div>
         </div>
 
         <div class="greybox">
             <div class="greyboxin">
                 <h1>Where can I watch?</h1>
-                <button onclick="showorhide3()" id="plus_btn_3" class="plus_btn">+</button>
+                <button onclick="showorhide3()" id="plus_btn_3" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_3">
                 <hr />
-                <p>Watch anywhere, anytime, on an unlimited number of devices. <br/>
-                Sign in with your Netflix account to watch instantly on the web <br/>
-                at netflix.com from your personal computer or on any internet- <br/>
-                connected device that offers the Netflix app, including smart <br/>
-                TVs, smartphones, tablets, streaming media players and game <br/>
-                consoles.<br/><br/>
-                
-                You can also download your favourite shows with the iOS, <br/>
-                Android, or Windows 10 app. Use downloads to watch while <br/>
-                you're on the go and without an internet connection. Take <br/>
-                Netflix with you anywhere.</p>
+                <p>
+                    Watch anywhere, anytime, on an unlimited number of devices. <br />
+                    Sign in with your Netflix account to watch instantly on the web
+                    <br />
+                    at netflix.com from your personal computer or on any internet-
+                    <br />
+                    connected device that offers the Netflix app, including smart <br />
+                    TVs, smartphones, tablets, streaming media players and game <br />
+                    consoles.<br /><br />
+
+                    You can also download your favourite shows with the iOS, <br />
+                    Android, or Windows 10 app. Use downloads to watch while <br />
+                    you're on the go and without an internet connection. Take <br />
+                    Netflix with you anywhere.
+                </p>
             </div>
         </div>
 
         <div class="greybox">
             <div class="greyboxin">
                 <h1>How do I cancel?</h1>
-                <button onclick="showorhide4()" id="plus_btn_4" class="plus_btn">+</button>
+                <button onclick="showorhide4()" id="plus_btn_4" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_4">
                 <hr />
-                <p></p>
+                <p>
+                    Netflix is flexible. There are no annoying contracts and no <br />
+                    commitments. You can easily cancel your account online in two <br />
+                    clicks. There are no cancellation fees – start or stop your account
+                    <br />
+                    anytime.
+                </p>
             </div>
         </div>
 
         <div class="greybox">
             <div class="greyboxin">
                 <h1>What can I watch on Netflix?</h1>
-                <button onclick="showorhide5()" id="plus_btn_5" class="plus_btn">+</button>
+                <button onclick="showorhide5()" id="plus_btn_5" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_5">
                 <hr />
-                <p></p>
+                <p>
+                    Netflix has an extensive library of feature films, documentaries,
+                    <br />
+                    TV shows, anime, award-winning Netflix originals, and more. <br />
+                    Watch as much as you want, anytime you want.
+                </p>
             </div>
         </div>
 
         <div class="greybox">
             <div class="greyboxin">
                 <h1>Is Netflix good for kids?</h1>
-                <button onclick="showorhide6()" id="plus_btn_6" class="plus_btn">+</button>
+                <button onclick="showorhide6()" id="plus_btn_6" class="plus_btn">
+                    +
+                </button>
             </div>
             <div class="greyboxout" id="greyboxout_6">
                 <hr />
-                <p></p>
+                <p>
+                    The Netflix Kids experience is included in your membership to <br />
+                    give parents control while kids enjoy family-friendly TV shows
+                    <br />
+                    and films in their own space. <br />
+                    <br />
+
+                    Kids profiles come with PIN-protected parental controls that let
+                    <br />
+                    you restrict the maturity rating of content kids can watch and
+                    <br />
+                    block specific titles you don’t want kids to see.
+                </p>
             </div>
         </div>
     </div>
 </body>
 
-<script>
-    var a = 1
-    function showorhide1() {
-        if(a=1) {
-            document.getElementById("greyboxout_1").style.display="flex";
-            document.getElementById("plus_btn_1").style.transform='rotate(45deg)';
-            return a=0;
-        }
-        else {
-            document.getElementById("greyboxout_1").style.display="none";
-            document.getElementById("plus_btn_1").style.transform = 'rotate(90deg)';
-            return a=1;
-        }
-    }
+<script src="myscript.js"></script>
 
-    function showorhide2() {
-            if (a = 1) {
-                document.getElementById("greyboxout_2").style.display = "flex";
-                document.getElementById("plus_btn_2").style.transform = 'rotate(45deg)';
-                return a = 0;
-            }
-            else {
-                document.getElementById("greyboxout_2").style.display = "none";
-                document.getElementById("plus_btn_2").style.transform = 'rotate(90deg)';
-                return a = 1;
-            }
-        }
-</script>
 </html>

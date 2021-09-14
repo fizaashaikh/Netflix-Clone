@@ -134,7 +134,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 165px;
+        margin-top: 150px;
         align-items: center;
         text-align: center;
     }
@@ -147,10 +147,76 @@
         background-color: rgb(44, 44, 44);
     }
 
+    /* Black Box */
     .subblackcontainer-2 {
-        height: 450px;
+        height: 460px;
         width: 100%;
         background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .blackcontainer-text {
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35%;
+        align-items: center;
+    }
+
+    .blackcontainer-text h1 {
+        font-size: 50px;
+        margin-right: 100px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .blackcontainer-text p {
+        font-size: 26.5px;
+        margin-right: 100px;
+        line-height: 110%;
+        text-align: left;
+        width: 100%;
+    }
+
+    .livetv-animation {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    .livetv-animation img {
+        z-index: 3;
+        position: absolute;
+        width: 550px;
+    }
+
+    .livetv-animation video {
+        padding: 74px;
+        z-index: 2;
+        position: absolute;
+        width: 400px;
+    }
+    
+    .gif {
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        line-height: 18px;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 2px solid rgba(255,255,255,.25);
+        background-color: black;
+        border-radius: 12px;
+        width: 21.5%;
+        height: 14%;
+        position: absolute;
+        top: 1485px;
+        left: 235px;
     }
 
     /* Section 3 */
@@ -173,6 +239,7 @@
 
     .greybox {
         display: flex;
+        cursor: pointer;
         width: 55%;
         flex-direction: column;
         background-color: rgb(51, 50, 50);
@@ -211,6 +278,7 @@
     }
 
     .plus_btn {
+        cursor: pointer;
         color: white;
         font-size: 40px;
         background: none;
